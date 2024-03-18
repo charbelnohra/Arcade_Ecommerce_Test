@@ -1,0 +1,154 @@
+/* home.css */
+@font-face {
+    font-family: permanent;
+    src: url('../fonts/Permanent_Marker/PermanentMarker-Regular.ttf');
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Set body font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+}
+
+/* Header styles */
+.header {
+    background-color: #0070FF;
+    color: #fff;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+}
+
+.comp-name {
+    margin-left: 10px;
+    font-family: permanent;
+    color: black;
+}
+
+/* Nav links */
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-right a:hover{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+/* Body styles */
+.Body {
+    padding: 20px;
+}
+
+/* About section styles */
+.history,
+.mission,
+.community {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.history-content,
+.mission-content,
+.community-content {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.history-content h2,
+.mission-content h2,
+.community-content h2{
+    margin-top: 20px;
+    color: red;
+    font-family: permanent;
+    font-size: 30px;
+}
+
+.history-img img {
+    width: 60%;
+}
+
+.mission-img img {
+    width: 60%;
+}
+
+.community-img img {
+    width: 60%;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #0070FF;
+    color: #fff;
+    padding: 20px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social p {
+    margin-bottom: 10px;
+}
+
+.social a img {
+    width: 20%;
+    height: 20%;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-right {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-right a {
+        margin: 10px 0;
+    }
+}

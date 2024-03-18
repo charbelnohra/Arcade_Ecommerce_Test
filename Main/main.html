@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="../images/logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        
+        <header class="header">
+            <nav class="nav">
+                <a href="../Home/home.html" class="home">
+                    <div class="nav-letf">
+                        <div class="logo-nav">
+                            <img src="../images/logo.png" alt="logo" class="logo">
+                        </div>
+
+                        <div class="comp-name">
+                            <h1 class="groupe">Mario Group</h1>
+                        </div>
+                    </div>
+                </a>
+                <div class="search_bar">
+                    <form action="">
+                        <input class="search" type="text" placeholder="Search">
+                    </form>
+                </div>
+                <div class="actions">
+                    <img class="profile" src="../images/actions/profile-user.png" alt="profile" srcset="">
+                    <div id="cart">
+                        <img class="cart"  src="../images/actions/shopping-cart.gif" alt="cart" srcset="">
+                        <span id="cartCount" class="badge">0</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main_body">
+            <div class="intro">
+                <div class="flipper">
+                    <h3 class="sub">Flipper</h3>
+                    <a href="#Pinball">
+                        <img src="../images/main/intro/pinball.gif" alt="flipper">
+                    </a>
+                </div>
+                <div class="pool">
+                    <h3 class="sub">Billiard</h3>
+                    <a href="#Billiard">
+                        <img src="../images/main/intro/billiards.gif" alt="billiard">
+                    </a>
+                </div>
+                <div class="video_game">
+                    <h3 class="sub">Arcade</h3>
+                    <a href="#Arcade">
+                        <img src="../images/main/intro/arcade.gif" alt="arcade">
+                    </a>
+                </div>
+            </div>
+            <div class="divider">
+                <h1 id="Pinball">Flipper</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/pinball_1.jpeg" alt="Shark Attack Flipper ">
+                </div>
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/pinball_2.jpeg" alt="RUSH Flipper ">
+                </div>
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/pinball_3.jpeg" alt="Star Wars Flipper ">
+                </div>
+            </div>
+            <div class="divider">
+                <h1 id="Billiard">Billiard</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/pool_1.png" alt="Dynamo pool table ">
+                </div>
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/pool_2.jpeg" alt="Valley pool table ">
+                </div>
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/pool_3.jpeg" alt="Championship pool table ">
+                </div>
+            </div>
+            <div class="divider">
+                <h1 id="Arcade">Arcade</h1>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/arcade_1.jpeg" alt="PAC-MAN ">
+                </div>
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/arcade_2.jpeg" alt="Street Fighter ">
+                </div>
+                <div class="grid-item">
+                    <img class="item" src="../images/main/body/arcade_3.png" alt="Galaga ">
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close">x</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="ft">
+                <img src="../images/logo.png" alt="logo">
+                <p>Since 2003, Mario Groupe has been the source for authentic arcade fun. We sell thousands of arcades all over Lebanon, making us the largest arcade & kit distributor.</p>
+            </div>
+               
+            <div id="ContactUs">
+                <form action="#">
+                        <input type="email" class="email" placeholder="Email" required><br>
+                        <input type="text" class="subject" placeholder="Subject"><br>
+                        <textarea id="comments" cols="60" rows="10" placeholder="Add comment"></textarea><br>
+                        <input type="submit" class="send" value="Send message"><br>
+                </form>
+            </div>
+
+            <div class="social">
+                <p>Call Now:(+961) 03-033-112</p><br>
+                <p>E-mail: mariogrp@gmail.com</p>
+                <a href="https://maps.google.com/maps/search/VGCM%2BXRC%2C%20Lebanon/@33.87257769964353,35.53528670221567,17z?hl=en" target="_blank">
+                        <img src="../images/location/location.jpeg" alt="location">
+                </a><br>
+                <a href="https://www.facebook.com/profile.php?id=100066668036139&mibextid=9R9pXO" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/mario_grp?igshid=MmVlMjlkMTBhMg==" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/4538169e37.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
